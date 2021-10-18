@@ -1,0 +1,44 @@
+.dene{
+    background-image: url("fon2.jpg");
+    background-color: gray;
+    height: 900px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.bastyk{
+    color: rgb(175, 171, 159);
+    text-align: center;
+    width: 1200px;
+    height: 800px;
+    background-color: rgb(26, 25, 25);
+}
+button{
+    background-color: rgb(172, 64, 64);    
+}
+button a{
+    color: white;
+    font-weight: bold;
+}
+.knopkalar :hover {
+    background-color: #08ffd2d3; 
+    color: black;   
+}
+
+
+@media(max-width: 700px){
+    .dene{
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        /* width: 47px; */
+        /* padding: auto; */
+    }
+    .bastyk{
+        width: 473px;
+        height: 1450px;
+    }
+    footer{
+        margin-top: -80px;
+    }
+}

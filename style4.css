@@ -1,0 +1,63 @@
+.dene{
+    background-image: url("fon2.jpg");
+    background-color: gray;
+    /* height: 900px; */
+    padding-top: 50px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.bastyk{
+    margin-top: 40px;
+    color: rgb(175, 171, 159);
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(26, 25, 25);
+}
+button{
+    background-color: rgb(172, 64, 64);    
+}
+button a{
+    color: white;
+    font-weight: bold;
+}
+.knopkaDiv :hover {
+    background-color: #08ffd2d3; 
+    color: black;   
+}
+.bastyk{
+    padding-top: 50px;
+    display: block;
+}
+.bastyk div{
+    margin-bottom: 10px;
+    /* margin-top: 5px; */
+}
+
+
+@media(max-width: 700px){
+    .bastyk{
+        align-items: center;
+
+        width: 483px;
+        /* margin-left: -400px; */
+        /* padding-left: 0px; */
+        /* padding: 0 auto;
+        padding: 0 auto;
+        /* width: 480px; */
+        /* margin-left: 0 auto;
+        margin-right: 0 auto;  */
+    }
+    .dene{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 480px;
+        /* padding: 0 auto;
+        padding: 0 auto; */
+        /* width: 480px; */
+    }
+    /* .podval{
+        background-color: aliceblue; 
+        color: black; 
+    } */
+}
